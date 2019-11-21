@@ -1,0 +1,17 @@
+.icon {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #666;
+  color: black;
+  font: normal normal normal 48px/1 'iconmonstr-iconic-font';
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &::before {
+    content: '\e015';
+  }
+}

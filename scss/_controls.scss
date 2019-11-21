@@ -1,0 +1,14 @@
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 1rem;
+
+  margin-top: 50px;
+}
+
+.icons,
+.colors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
