@@ -5,3 +5,10 @@
   border: 1px solid #eee;
   cursor: pointer;
 }
+
+@each $color in $colors {
+  .color-#{$color} {
+    @extend %color;
+    background-color: $color;
+  }
+}
